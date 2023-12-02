@@ -13,6 +13,7 @@ class StorePromotionsController extends Controller
      */
     public function index()
     {
+        return 1;
         $all = StorePromotions::all();
         return response()->json($all);
     }
