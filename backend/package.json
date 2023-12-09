@@ -6,8 +6,23 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@babel/preset-react": "^7.23.3",
+        "@vitejs/plugin-react": "^4.2.0",
         "axios": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "laravel-mix-esbuild": "^1.1.0",
         "laravel-vite-plugin": "^0.8.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "@inertiajs/react": "^1.0.14",
+        "@mui/material": "^5.14.19",
+        "react-router-dom": "^6.20.1",
+        "react-scripts": "^5.0.1"
     }
 }

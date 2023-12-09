@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+wordpress/
+id_rsa
+
 # Distribution / packaging
 .Python
 build/
